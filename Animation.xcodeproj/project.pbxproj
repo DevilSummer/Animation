@@ -14,6 +14,7 @@
 		161EE14422166A9D004155B0 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 161EE14322166A9D004155B0 /* UIView+Animation.m */; };
 		161EE14622166B46004155B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161EE14522166B46004155B0 /* ViewController.m */; };
 		161EE14822166B82004155B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161EE14722166B82004155B0 /* Main.storyboard */; };
+		161EE16D2216AB95004155B0 /* Animation logic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 161EE16C2216AB95004155B0 /* Animation logic.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		161EE14322166A9D004155B0 /* UIView+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		161EE14522166B46004155B0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		161EE14722166B82004155B0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		161EE16C2216AB95004155B0 /* Animation logic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animation logic.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		161EE14122166999004155B0 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				161EE16C2216AB95004155B0 /* Animation logic.txt */,
 				161EE14222166A9D004155B0 /* UIView+Animation.h */,
 				161EE14322166A9D004155B0 /* UIView+Animation.m */,
 			);
@@ -144,6 +147,7 @@
 				161EE14822166B82004155B0 /* Main.storyboard in Resources */,
 				161EE138221668BD004155B0 /* LaunchScreen.storyboard in Resources */,
 				161EE135221668BD004155B0 /* Assets.xcassets in Resources */,
+				161EE16D2216AB95004155B0 /* Animation logic.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
