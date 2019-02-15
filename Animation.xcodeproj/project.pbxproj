@@ -15,6 +15,7 @@
 		161EE14622166B46004155B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161EE14522166B46004155B0 /* ViewController.m */; };
 		161EE14822166B82004155B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161EE14722166B82004155B0 /* Main.storyboard */; };
 		161EE16D2216AB95004155B0 /* Animation logic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 161EE16C2216AB95004155B0 /* Animation logic.txt */; };
+		161EE1702216BC1E004155B0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161EE16F2216BC1E004155B0 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		161EE14522166B46004155B0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		161EE14722166B82004155B0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		161EE16C2216AB95004155B0 /* Animation logic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animation logic.txt"; sourceTree = "<group>"; };
+		161EE16E2216BC1E004155B0 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		161EE16F2216BC1E004155B0 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				161EE14722166B82004155B0 /* Main.storyboard */,
 				161EE139221668BD004155B0 /* Info.plist */,
 				161EE13A221668BD004155B0 /* main.m */,
+				161EE16E2216BC1E004155B0 /* TableViewCell.h */,
+				161EE16F2216BC1E004155B0 /* TableViewCell.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				161EE14422166A9D004155B0 /* UIView+Animation.m in Sources */,
 				161EE13B221668BD004155B0 /* main.m in Sources */,
 				161EE14622166B46004155B0 /* ViewController.m in Sources */,
+				161EE1702216BC1E004155B0 /* TableViewCell.m in Sources */,
 				161EE12D221668BC004155B0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

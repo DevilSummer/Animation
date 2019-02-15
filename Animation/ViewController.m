@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 #import "UIView+Animation.h"
+#import "TableViewCell.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -17,6 +19,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+
+#pragma mark - Delegate
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 50;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 64;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.titleLabel.text = [@(indexPath.row).stringValue stringByAppendingString:@"title"];
+    cell.badgeLabel.text = @(arc4random() % 100).stringValue;
+    return cell;
 }
 
 @end

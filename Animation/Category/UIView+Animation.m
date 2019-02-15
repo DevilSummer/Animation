@@ -16,7 +16,7 @@
  果冻拖拽动画
  @param completion endPoint为结束拖拽松手时的坐标
  */
-+ (void)dragJellyAnimation:(void (^)(CGPoint endPoint))completion {
+- (void)dragJellyAnimation:(void (^)(CGPoint endPoint))completion {
     
 }
 
